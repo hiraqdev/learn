@@ -106,7 +106,7 @@ defmodule Stack.Basic do
   """
   @spec push(list(), any()) :: list()
   def push(stack, value) do
-    [value] ++ stack
+    [value | stack]
   end
 
   @doc """
