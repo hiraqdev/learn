@@ -22,7 +22,7 @@ defmodule QueueBasicTest do
       |> Queue.Basic.enqueue(1)
       |> Queue.Basic.enqueue(2)
       |> Queue.Basic.enqueue(3)
-      |> Queue.Basic.dequeue
+      |> Queue.Basic.dequeue()
 
     front = Queue.Basic.peek(q)
     rear = Queue.Basic.last(q)

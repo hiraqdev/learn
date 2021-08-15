@@ -19,7 +19,7 @@ defmodule Queue.Basic do
   """
   @spec enqueue(list(), any()) :: list()
   def enqueue(q, value) do
-    [ value | q ]
+    [value | q]
   end
 
   @doc """
@@ -29,7 +29,7 @@ defmodule Queue.Basic do
   def dequeue(q) do
     Enum.reverse(q)
     |> tl
-    |> Enum.reverse
+    |> Enum.reverse()
   end
 
   @doc """
