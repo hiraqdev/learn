@@ -1,21 +1,17 @@
 # Das
 
-**TODO: Add description**
+Learn `Elixir` through data structure & algorighm
 
-## Installation
+## Usage
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `das` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:das, "~> 0.1.0"}
-  ]
-end
+```
+mix deps.get
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/das](https://hexdocs.pm/das).
+## Docs
 
+Generate documentation:
+
+```
+mix docs
+```
