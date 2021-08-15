@@ -15,3 +15,9 @@ Generate documentation:
 ```
 mix docs
 ```
+
+## Testing
+
+```
+mix test
+```
